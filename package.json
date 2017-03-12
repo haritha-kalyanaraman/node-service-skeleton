@@ -1,0 +1,27 @@
+{
+  "name": "node-service-skeleton",
+  "version": "1.0.0",
+  "description": "skeleton with es6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Haritha",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "mori": "^0.3.2"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "start:local": "cd node_modules && nodemon ../index.js",
+    "start:daemon": "node index.js &",
+    "test": "mocha"
+  },
+  "directories": {
+   "test": "test"
+ }
+}
